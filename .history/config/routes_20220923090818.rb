@@ -4,5 +4,5 @@ Rails.application.routes.draw do
 
   get '/students', to: 'students#grades'
 
-  get '/students/highest_grade', to: 'students#highest_grade'
+  get '/students/high'
 end
